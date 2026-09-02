@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --background-color: #f0f2f5;
+    --card-background: #fff;
+    --primary-base: #045be6;
+    --secondary-tints: #5f5f5f;
+    --secondary-base: #777;
+    --secondary-shade: #222;
+    --tertiary-base: #41db51;
+
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Poppins', arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-center ul li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar-right img {
+    width: 40px;
+    border-radius: 50%;
+}
