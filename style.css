@@ -60,6 +60,50 @@ header {
     width: 30px;
 }
 .nav-profile-img {
-    width: 35px;
+    width: 40px;
     border-radius: 50%;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    background: var(--background-color);
+    border-radius: 20px;
+}
+.search-box img {
+    width: 15px;
+}
+.search-box input {
+    background: transparent;
+    outline: none;
+    border: 0;
+    margin-left: 5px;
+    color: var(--secondary-tints);
+    width: 100%;
+}
+::placeholder {
+    color: var(--secondary-base);
+}
+.navbar-center ul li a span {
+    font-size: 1.6rem;
+    color: var(--secondary-tints);
+}
+.navbar-right .online {
+    position: relative;
+}
+.navbar-right .online span {
+    background: var(--tertiary-base);
+    height: 10px;
+    width: 10px;
+    content: '';
+    border-radius: 50%;
+    border: 2px solid var(--background-color);
+    position: absolute;
+    top: 0;
+    left: 29px;
+    
 }
