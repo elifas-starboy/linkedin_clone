@@ -73,6 +73,9 @@ header {
 .navbar-center ul li a:hover::after {
     width: 100%;
 }
+.navbar-center ul li a.active-link::after {
+    width: 100%;
+}
 .nav-profile-img {
     width: 40px;
     border-radius: 50%;
@@ -109,14 +112,71 @@ header {
 .navbar-right .online {
     position: relative;
 }
-.navbar-right .online span {
+.online::after {
     background: var(--tertiary-base);
-    height: 10px;
-    width: 10px;
+    height: 7px;
+    width: 7px;
     content: '';
     border-radius: 50%;
     border: 2px solid var(--background-color);
     position: absolute;
     top: 0;
     left: 29px;
+}
+
+/* =========== navbar ends ============ */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 6%;
+}
+
+/* ================ LEFT SIDEBAR =============== */
+.left-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+.profile-info {
+    background: var(--card-background);
+}
+.profile-info img {
+    width: 100%;
+}
+.sidebar-profile-info {
+    padding: 0 25px;
+}
+.sidebar-profile-info img {
+    width: 90px;
+    margin-top: -45px;
+    border-radius: 50%;
+    padding: 4px;
+    background: var(--card-background);
+}
+.sidebar-profile-info h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.sidebar-profile-info small {
+    font-size: 1.3rem;
+    color: var(--secondary-base);
+    font-weight: 500;
+    margin-top: 10px;
+}
+.sidebar-profile-info ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.sidebar-profile-info ul li {
+    font-size: 1.3rem;
+    color: var(--secondary-base);
+    margin-top: 8px;
+}
+.sidebar-profile-info ul li span {
+    float: right;
+    color: var(--primary-base);
+    font-size: 1.4rem;
+    font-weight: 500;
 }
