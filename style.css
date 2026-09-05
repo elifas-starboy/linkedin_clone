@@ -55,9 +55,23 @@ header {
     font-size: 1.4rem;
     margin: 5px 8px;
     padding-right: 5px;
+    position: relative;
 }
 .navbar-center ul li a img {
     width: 30px;
+}
+.navbar-center ul li a::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: var(--primary-base);
+    position: absolute;
+    bottom: -17px;
+    transition: width 0.5s;
+
+}
+.navbar-center ul li a:hover::after {
+    width: 100%;
 }
 .nav-profile-img {
     width: 40px;
@@ -105,5 +119,4 @@ header {
     position: absolute;
     top: 0;
     left: 29px;
-    
 }
