@@ -137,6 +137,8 @@ header {
 .left-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73;
 }
 .profile-info {
     background: var(--card-background);
@@ -207,4 +209,42 @@ header {
 .features-list .feature-dt span {
     font-size: 1.3rem;
     color: var(--secondary-base);
+}
+.user-info {
+    background: var(--card-background);
+    margin-top: 10px;
+}
+.user-web-info  {
+    padding: 0 25px;
+}
+.user-web-info span {
+    font-size: 1.6rem;
+    color: var(--secondary-base);
+    padding: 25px 0 20px;
+    display: block;
+}
+.user-web-info .details a {
+    display: flex;
+    align-items: center;
+}
+
+.user-web-info .details img {
+    width: 23px;
+    margin-right: 10px;
+}
+
+.user-web-info .details b {
+    font-size: 1.3rem;
+    color: var(--secondary-base);
+    font-weight: 500;
+}
+.user-info .discover-tag {
+    font-size: 1.3rem;
+    color: var(--primary-base);
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    border-top: 1px solid var(--secondary-base);
+    padding: 15px 0 15px ;
+    font-weight: 500;
 }
