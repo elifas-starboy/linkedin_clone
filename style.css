@@ -180,3 +180,31 @@ header {
     font-size: 1.4rem;
     font-weight: 500;
 }
+.features-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid var(--secondary-base);
+    margin-top: 25px;
+}
+.features-list .feature-dt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.features-list .feature-dt.special-one {
+    border-left: 1px solid var(--secondary-base);
+}
+.features-list .feature-dt.special-one img {
+    margin-left: 15px;
+}
+.features-list .feature-dt img {
+    width: 20px;
+    margin-right: 5px;
+}
+.features-list .feature-dt span {
+    font-size: 1.3rem;
+    color: var(--secondary-base);
+}
