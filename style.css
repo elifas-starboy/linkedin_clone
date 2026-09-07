@@ -248,3 +248,30 @@ header {
     padding: 15px 0 15px ;
     font-weight: 500;
 }
+
+
+/* ============= Right sidebar ================= */
+
+.right-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 73;
+}
+
+.detials-card {
+    background: var(--card-background);
+    padding: 5px 20px;
+}
+.detials-card span {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: var(--secondary-base);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.detials-card span img {
+    width: 15px;
+    margin-left: auto;
+}
