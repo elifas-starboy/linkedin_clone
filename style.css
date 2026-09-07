@@ -263,15 +263,28 @@ header {
     background: var(--card-background);
     padding: 5px 20px;
 }
-.detials-card span {
+.detials-card .trendings-details {
     margin: 20px 0;
-    font-size: 1.5rem;
-    color: var(--secondary-base);
-    font-weight: 500;
+    font-size: 1.7rem;
+    color: var(--secondary-shade);
+    font-weight: 600;
     display: flex;
     align-items: center;
 }
-.detials-card span img {
+.detials-card .trendings-details img {
     width: 15px;
     margin-left: auto;
+}
+.detials-card a {
+    display: block;
+    font-size: 1.3rem;
+    color: var(--secondary-tints);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.detials-card span {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--secondary-base);
+    margin-bottom: 8px;
 }
