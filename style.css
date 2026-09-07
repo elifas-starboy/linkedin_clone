@@ -341,3 +341,29 @@ header {
     text-align: center;
     margin: 10px 45px 10px 45px;
 }
+
+.footer {
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.footer a {
+    color: var(--secondary-base);
+    font-weight: 600;
+    display: inline-block;
+}
+.footer .copy-right {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .copy-right img {
+    width: 30px;
+    height: 30px;
+}
+.footer .copy-right p {
+    color: var(--secondary-base);
+    font-size: 1.4rem;
+}
