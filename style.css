@@ -442,3 +442,37 @@ header {
 .main-content p span img {
     width: 10px;
 }
+
+.social-post-card {
+    background: var(--card-background);
+    padding: 15px 25px;
+    margin-top: 15px;
+}
+.social-post-card .user-social-prof {
+    display: flex;
+    align-items: start;
+}
+.social-post-card .user-social-prof img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.social-post-card .user-social-prof h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--secondary-shade);
+}
+.social-post-card .user-social-prof p {
+    color: var(--secondary-tints);
+    font-size: 1.4rem;
+    margin-left: 0;
+}
+.social-post-card .post-details {
+    margin-top: 15px;
+    color: var(--secondary-base);
+    font-size: 1.4rem;
+}
+.social-post-card .post-image img {
+    margin-top: 8px;
+    width: 100%;
+}
