@@ -476,3 +476,27 @@ header {
     margin-top: 8px;
     width: 100%;
 }
+.comment-contianer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment-contianer .left-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.comment-contianer .left-comment .left-icons {
+    display: flex;
+    align-items: center;
+}
+.comment-contianer .left-comment .left-icons img {
+    width: 15px;
+    margin: 0;
+    margin-left: -5px;
+}
+.comment-contianer .left-comment div span {
+    font-size: 1.6rem;
+    color: var(--secondary-tints);
+}
