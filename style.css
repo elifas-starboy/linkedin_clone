@@ -138,7 +138,7 @@ header {
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
-    top: 73;
+    top: 73px;
 }
 .profile-info {
     background: var(--card-background);
@@ -256,7 +256,7 @@ header {
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
-    top: 73;
+    top: 73px;
 }
 
 .detials-card {
@@ -445,7 +445,7 @@ header {
 
 .social-post-card {
     background: var(--card-background);
-    padding: 15px 25px;
+    padding: 15px 25px 0;
     margin-top: 15px;
 }
 .social-post-card .user-social-prof {
@@ -499,4 +499,36 @@ header {
 .comment-contianer .left-comment div span {
     font-size: 1.6rem;
     color: var(--secondary-tints);
+}
+.comment-contianer .right-comment span {
+    font-size: 1.6rem;
+    color: var(--secondary-tints);
+}
+.post-image .comment-details ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 ;
+    border-top: 1px solid var(--secondary-base);
+    margin-top: 10px;
+}
+.post-image .comment-details ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: var(--secondary-base);
+    font-weight: 500;
+}
+.post-image .comment-details ul li img {
+    width: 20px;
+    margin: 0;
+    margin-right: 5px;
+}
+.post-image .comment-details ul li .user-comment-pic {
+    width: 30px;
+    border-radius: 50%;
+}
+.post-image .comment-details ul li .down-arrow {
+    width: 15px;
 }
