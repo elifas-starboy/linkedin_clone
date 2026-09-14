@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <!-- ======== POPPINS FONT ========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+    <!-- ======== OTHER LINKS ======== -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+                    <div class="search-box">
+                        <img src="images/search.png">
+                        <input type="text" placeholder="Search">
+                    </div>
+
+                </div>
+                <div class="navbar-center">
+                    <ul>
+                        <li><a href="#" class="active-link"><img src="images/home.png"> <span>Home</span></a></li>
+                        <li><a href="#"><img src="images/network.png"> <span>My Network</span></a></li>
+                        <li><a href="#"><img src="images/jobs.png"> <span>Jobs</span></a></li>
+                        <li><a href="#"><img src="images/message.png"> <span>Messaging</span></a></li>
+                        <li><a href="#"><img src="images/notification.png"> <span>Notifications</span></a></li>
+                    </ul>
+                    <span class="hover-line"></span>
+                </div>
+                <div class="navbar-right">
+                    <div class="online" onclick="openMenu">
+                        <img src="images/user-1.png" class="nav-profile-img">
+                    </div>
+
+                    <!-- ------------    PROFILE SETTINGS    ------------- -->
+                    <div class="profile-settings">
+                        <div class="user-profile">
+                            <img src="images/user-1.png" alt="user png">
+                            <div class="profile-details">
+                                <h3>Rayan Walton</h3>
+                                <a href="#">See your profile</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <a href="#" class="profile-menu-dropdwon">
+                            <img src="images/feedback.png" alt="feedback png">
+                            Given Feedback
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="profile-menu-dropdwon">
+                            <img src="images/setting.png" alt="setting png">
+                            Setting & Privacy
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="profile-menu-dropdwon">
+                            <img src="images/help.png" alt="help png">
+                            Help & Support
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="profile-menu-dropdwon">
+                            <img src="images/display.png" alt="display png">
+                            Display & Accessibility
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="profile-menu-dropdwon">
+                            <img src="images/logout.png" alt="logout png">
+                            Logout
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>    
+    </div>
+</body>
+</html>
