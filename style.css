@@ -532,3 +532,26 @@ header {
 .post-image .comment-details ul li .down-arrow {
     width: 15px;
 }
+
+
+/* ------------- profile settings ------------------- */
+
+
+.profile-settings {
+    height: 300px;
+    width: 300px;
+    background: var(--secondary-shade);
+    position: absolute;
+    top: 62px;
+    right: 88px;
+    padding: 18px 18px;
+}
+.profile-settings .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-settings .user-profile img {
+    width: 45px;
+    border-radius: 50%;
+}
