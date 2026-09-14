@@ -545,6 +545,7 @@ header {
     right: 88px;
     padding: 18px 18px;
     cursor: pointer;
+    display: none;
 }
 .profile-settings .user-profile {
     display: flex;
@@ -583,4 +584,7 @@ header {
 }
 .profile-settings .profile-menu-dropdwon span {
     margin-left: auto;
+}
+.profile-settings.open-menu {
+    display: block;
 }
