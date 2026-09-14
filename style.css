@@ -588,3 +588,50 @@ header {
 .profile-settings.open-menu {
     display: block;
 }
+
+
+/* -------------- profile page ------------- */
+.main-content {
+    flex-basis: 72%;
+    flex-wrap: wrap;
+}
+.profile-details {
+    background: var(--card-background);
+}
+.profile-details img {
+    width: 100%;
+}
+.profile-details .profile-top {
+    padding: 10px 30px;
+}
+.profile-details .profile-top img {
+    width: 125px;
+    border-radius: 50%;
+    margin-top: -65px;
+    padding: 5px;
+    background: var(--card-background);
+}
+.profile-details .profile-top h2 {
+    font-size: 2.3rem;
+    color: var(--secondary-shade);
+    font-weight: 600;
+}
+.profile-details .profile-top b {
+    font-size: 1.6rem;
+    color: var(--secondary-tints);
+    font-weight: 500;
+}
+.profile-details .profile-top p {
+    font-size: 1.6rem;
+    color: var(--secondary-tints);
+    margin: 0;
+}
+.profile-details .profile-top p a {
+    font-size: 1.6rem;
+    color: var(--primary-base);
+    font-weight: 500;
+}
+.profile-top .mutual-detials {
+    display: flex;
+    align-items: center;
+}
