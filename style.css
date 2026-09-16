@@ -631,7 +631,68 @@ header {
     color: var(--primary-base);
     font-weight: 500;
 }
-.profile-top .mutual-detials {
+.profile-details .mutual-detials {
     display: flex;
     align-items: center;
+    margin-top: 5px;
+    padding: 10px 30px;
+}
+.profile-details .mutual-detials img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.profile-details .mutual-detials span {
+    font-size: 1.6rem;
+    color: var(--secondary-base);
+}
+.profile-details .bottom-btns {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+.profile-details .bottom-btns a img {
+    width: 25px;
+}
+.profile-details .bottom-btns .btn {
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    color: #5f5f5f;
+    border-radius: 5px;
+    border: 0;
+}
+.profile-details .bottom-btns .btn.primary-btn {
+    color: var(--card-background);
+    background: var(--primary-base);
+    margin-right: 5px;
+}
+.profile-details .bottom-btns .btn.secondary-btn {
+    background: #e4e6eb;
+}
+.profile-details {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.main-content .about-container {
+    background: var(--card-background);
+    padding: 25px 30px;
+}
+.main-content .about-container h3 {
+    font-size: 2.5rem;
+    color: var(--secondary-shade);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.main-content .about-container p {
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--secondary-base);
+}
+.main-content .about-container span {
+    font-size: 1.5rem;
+    color: var(--secondary-tints);
+    float: right;
 }
