@@ -704,6 +704,9 @@ header {
     gap: 25px;
     margin-top: 20px;
 }
+.card-container .details div {
+    flex-basis: 100%;
+}
 .card-container .details b {
     font-size: 1.6rem;
     font-weight: 600;
@@ -720,8 +723,47 @@ header {
     color: var(--secondary-base);
     font-size: 1.6rem;
 }
-.card-container .details hr {
-    color: var(--secondary-base);
-    width: 100%;
-    margin-top: 10px;
+.card-container .details hr, .card-container hr {
+    border: 0;
+    border-bottom: 1px solid var(--secondary-base);
+    margin-top: 15px;
+}
+.card-container .experience-link img {
+    width: 15px;
+    margin-left: 5px;
+}
+.card-container .experience-link {
+    color: var(--secondary-tints);
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    padding: 20px 0 10px;
+}
+
+.card-container ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card-container ul li {
+    padding: 5px 10px;
+    border: 1px solid var(--secondary-tints);
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.card-container ul li a {
+    color: var(--secondary-tints);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.card-container a.btn {
+    background: #e4e6eb;
+    color: var(--secondary-tints);
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 1.4rem;
 }
