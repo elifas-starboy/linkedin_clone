@@ -768,3 +768,25 @@ header {
     margin-right: 10px;
     font-size: 1.4rem;
 }
+.side-bar-links {
+    margin-top: 30px;
+}
+.side-bar-links a {
+    font-size: 1.4rem;
+    color: var(--secondary-base);
+    margin-right: 10px;
+}
+.side-bar-links .copy-right-reserved img {
+    width: 20px;
+    margin-right: 5px;
+}
+.side-bar-links .copy-right-reserved {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.side-bar-links .copy-right-reserved p {
+    font-size: 1.4rem;
+    color: var(--secondary-base);
+    font-weight: 500;
+}
