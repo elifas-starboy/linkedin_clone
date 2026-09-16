@@ -673,26 +673,55 @@ header {
 }
 .profile-details {
     padding-bottom: 15px;
-    margin-bottom: 15px;
+    
 }
 
-.main-content .about-container {
+.main-content .card-container {
     background: var(--card-background);
     padding: 25px 30px;
+    margin: 15px 0;
 }
-.main-content .about-container h3 {
+.main-content .card-container h3 {
     font-size: 2.5rem;
     color: var(--secondary-shade);
     font-weight: 600;
     margin-bottom: 15px;
 }
-.main-content .about-container p {
+.main-content .card-container p {
     margin: 0;
     font-size: 1.6rem;
     color: var(--secondary-base);
 }
-.main-content .about-container span {
+.main-content .card-container span {
     font-size: 1.5rem;
     color: var(--secondary-tints);
     float: right;
+}
+
+.card-container .details {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 20px;
+}
+.card-container .details b {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--secondary-shade);
+}
+.card-container .details small {
+    font-size: 1.4rem;
+    color: var(--secondary-tints);
+    display: block;
+    font-weight: 500;
+}
+.card-container .details p {
+    margin-top: 15px;
+    color: var(--secondary-base);
+    font-size: 1.6rem;
+}
+.card-container .details hr {
+    color: var(--secondary-base);
+    width: 100%;
+    margin-top: 10px;
 }
