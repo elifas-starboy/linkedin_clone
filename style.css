@@ -551,6 +551,7 @@ header {
     display: flex;
     align-items: center;
     gap: 15px;
+    background: var(--secondary-shade);
 }
 .profile-settings .user-profile img {
     width: 55px;
@@ -591,70 +592,70 @@ header {
 
 
 /* -------------- profile page ------------- */
-.main-content {
+.main-content-container {
     flex-basis: 72%;
     flex-wrap: wrap;
 }
-.profile-details {
+.profile-dls {
     background: var(--card-background);
 }
-.profile-details img {
+.profile-dls img {
     width: 100%;
 }
-.profile-details .profile-top {
+.profile-dls .profile-top {
     padding: 10px 30px;
 }
-.profile-details .profile-top img {
+.profile-dls .profile-top img {
     width: 125px;
     border-radius: 50%;
     margin-top: -65px;
     padding: 5px;
     background: var(--card-background);
 }
-.profile-details .profile-top h2 {
+.profile-dls .profile-top h2 {
     font-size: 2.3rem;
     color: var(--secondary-shade);
     font-weight: 600;
 }
-.profile-details .profile-top b {
+.profile-dls .profile-top b {
     font-size: 1.6rem;
     color: var(--secondary-tints);
     font-weight: 500;
 }
-.profile-details .profile-top p {
+.profile-dls .profile-top p {
     font-size: 1.6rem;
     color: var(--secondary-tints);
     margin: 0;
 }
-.profile-details .profile-top p a {
+.profile-dls .profile-top p a {
     font-size: 1.6rem;
     color: var(--primary-base);
     font-weight: 500;
 }
-.profile-details .mutual-detials {
+.profile-dls .mutual-detials {
     display: flex;
     align-items: center;
     margin-top: 5px;
     padding: 10px 30px;
 }
-.profile-details .mutual-detials img {
+.profile-dls .mutual-detials img {
     width: 35px;
     border-radius: 50%;
     margin-right: 8px;
 }
-.profile-details .mutual-detials span {
+.profile-dls .mutual-detials span {
     font-size: 1.6rem;
     color: var(--secondary-base);
 }
-.profile-details .bottom-btns {
+.profile-dls .bottom-btns {
     display: flex;
     align-items: center;
     padding: 10px 30px;
 }
-.profile-details .bottom-btns a img {
+.profile-dls .bottom-btns a img {
     width: 25px;
 }
-.profile-details .bottom-btns .btn {
+.profile-dls .bottom-btns .btn {
     font-size: 1.6rem;
     padding: 5px 10px;
     display: flex;
@@ -663,36 +664,36 @@ header {
     border-radius: 5px;
     border: 0;
 }
-.profile-details .bottom-btns .btn.primary-btn {
+.profile-dls .bottom-btns .btn.primary-btn {
     color: var(--card-background);
     background: var(--primary-base);
     margin-right: 5px;
 }
-.profile-details .bottom-btns .btn.secondary-btn {
+.profile-dls .bottom-btns .btn.secondary-btn {
     background: #e4e6eb;
 }
-.profile-details {
+.profile-dls {
     padding-bottom: 15px;
     
 }
 
-.main-content .card-container {
+.main-content-container .card-container {
     background: var(--card-background);
     padding: 25px 30px;
     margin: 15px 0;
 }
-.main-content .card-container h3 {
+.main-content-container .card-container h3 {
     font-size: 2.5rem;
     color: var(--secondary-shade);
     font-weight: 600;
     margin-bottom: 15px;
 }
-.main-content .card-container p {
+.main-content-container .card-container p {
     margin: 0;
     font-size: 1.6rem;
     color: var(--secondary-base);
 }
-.main-content .card-container span {
+.main-content-container .card-container span {
     font-size: 1.5rem;
     color: var(--secondary-tints);
     float: right;
