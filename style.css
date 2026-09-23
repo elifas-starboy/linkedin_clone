@@ -208,6 +208,11 @@ header {
     font-weight: 500;
 }
 
+/* ----- SEE MORE TAGE -------- */
+#show-more-link {
+    display: none;
+}
+
 .features-list {
     display: flex;
     align-items: center;
