@@ -1,6 +1,6 @@
 const profile = document.querySelector('.online');
-const sidebar_activity = document.getElementById('user-web-info');
-const more_link = document.getElementById('show-more-link');
+const sidebar_activity = document.querySelector('.user-web-info');
+const more_link = document.querySelector('#show-more-link');
 
 
 profile.addEventListener('click', () => {
@@ -8,6 +8,11 @@ profile.addEventListener('click', () => {
 });
 
 function toggleActivity() {
+
+    console.log("working");
+
+    console.log(sidebar_activity)
+
     sidebar_activity.classList.toggle('open-activity');
 
     if (sidebar_activity.classList.contains('open-activity')) {

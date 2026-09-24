@@ -129,11 +129,6 @@
     .user-web-info.open-activity {
         display: block;
     }
-
-    .user-info .discover-tag {
-        display: none;
-    }
-
     .sort-container hr {
         width: 80%;
     }
