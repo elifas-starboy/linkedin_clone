@@ -27,6 +27,12 @@
     }
 
     .left-sidebar, .right-sidebar {
+        top: 43px;
+    }
+
+    /* -------- profile page -------- */
+
+    .right-side-bar {
         top: 63px;
     }
 }
@@ -61,6 +67,11 @@
         left: 18px;
         width: 5px;
         height: 5px;
+    }
+
+    .profile-settings {
+        top: 52px;
+        right: 58px;
     }
 
     .container  {
@@ -98,6 +109,13 @@
     .social-post-card {
         padding: 1.5rem 1.2rem;
     }
+
+    /* -------- profile page -------- */
+
+    .right-side-bar {
+        flex-basis: 26%;
+        top: 43px;
+    }
 }
 
 /* PHONE LANDSCAPE AND PHONE PORTRAINT: < 768px */
@@ -105,6 +123,12 @@
 @media (max-width: 45rem) {
     /* 733px / 16px = 45rem */
     /* 45rem x 16px =  720px*/
+
+
+    .profile-settings {
+        top: 52px;
+        right: 38px;
+    }
 
     .container {
         flex-direction: column;
@@ -164,5 +188,12 @@
             }
         }
 
+    }
+
+
+    /* -------- profile page ------- */
+
+    .right-side-bar {
+        width: 100%;
     }
 }
